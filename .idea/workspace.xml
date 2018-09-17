@@ -1,0 +1,1467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="trace" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="更改启动类名称为 App" />
+    <ignored path="JavaFxApplication.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="resources/word/basic.json" />
+    <ignored path="resources/word/review.json" />
+    <ignored path="resources/config.properties" />
+    <ignored path="resources/dictionary.json" />
+    <ignored path="resources/progress.json" />
+    <ignored path="src/trace/images/icons8-settings_50.png" />
+    <ignored path="src/trace/images/Infinite_48px.png" />
+    <ignored path="src/trace/images/Settings_50px.png" />
+    <ignored path="src/trace/images/Settings_64px.png" />
+    <ignored path="src/trace/images/Subtitles_48px.png" />
+    <ignored path="src/trace/view/selectWord.fxml" />
+    <ignored path="module_trace.xml" />
+    <ignored path="trace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/trace$Main__1_.ic" NAME="Main (1) Coverage Results" MODIFIED="1535446418470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>trace.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties converted="true" />
+    <breakpoint_rules converted="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="JavaFxApplication" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="App.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/trace/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DetailPaneController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/trace/controller/DetailPaneController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="113">
+              <caret line="1836" column="9" selection-start-line="1836" selection-start-column="9" selection-end-line="1836" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TraceController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/trace/controller/TraceController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="10868">
+              <caret line="628" column="64" selection-start-line="628" selection-start-column="64" selection-end-line="628" selection-end-column="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="commons.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/trace/css/commons.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4484">
+              <caret line="236" column="1" selection-start-line="236" selection-start-column="1" selection-end-line="236" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>setFocusTraversable(false);</find>
+      <find>-fx-background-radius</find>
+      <find>copyPopup</find>
+      <find>precessFiles()</find>
+      <find>currentListener</find>
+      <find>volumeSlider</find>
+      <find>mediaPlayer.dispose();</find>
+      <find>.dispose();</find>
+      <find>stop()</find>
+      <find>nextStatus</find>
+      <find>next</find>
+      <find>disable</find>
+      <find>markLabel</find>
+      <find>System.out.println(nextStatus);</find>
+      <find>Clicked</find>
+      <find>mar</find>
+      <find>mark</find>
+      <find>markL</find>
+      <find>currentTimelistener</find>
+      <find>isPlaying</find>
+      <find>time</find>
+      <find>update</find>
+      <find>detailP</find>
+      <find>currentTime</find>
+      <find>dispose</find>
+      <find>System.out.println(</find>
+      <find>mainController.dataLayout</find>
+      <find>dataLayout</find>
+      <find>dataLayout.</find>
+      <find>star.setGraphic</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>mediaInfo</replace>
+      <replace>reviewsPagination</replace>
+      <replace>familiarPagination</replace>
+      <replace>NavigationControl</replace>
+      <replace>subtitleOpen</replace>
+      <replace />
+      <replace>25</replace>
+      <replace>34</replace>
+      <replace>&quot;&quot;</replace>
+      <replace>prefHeight(70);</replace>
+      <replace>disposePlayers();</replace>
+    </replaceStrings>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/trace/view/Test.fxml" />
+        <option value="$PROJECT_DIR$/src/trace/view/Test.java" />
+        <option value="$PROJECT_DIR$/src/trace/controller/CustomPagination.java" />
+        <option value="$PROJECT_DIR$/src/trace/controller/CustomPaginationSkin.java" />
+        <option value="$PROJECT_DIR$/src/trace/controller/HelloDragAndDrop.java" />
+        <option value="$PROJECT_DIR$/resources/word/review.json" />
+        <option value="$PROJECT_DIR$/src/trace/controller/pagination_demo.java" />
+        <option value="$PROJECT_DIR$/src/trace/controller/AdjustPopup.java" />
+        <option value="$PROJECT_DIR$/src/trace/view/VideoListView.fxml" />
+        <option value="$PROJECT_DIR$/src/trace/controller/demo.java" />
+        <option value="$PROJECT_DIR$/src/trace/controller/VideoListViewController.java" />
+        <option value="$PROJECT_DIR$/src/trace/utils/Search.java" />
+        <option value="$PROJECT_DIR$/src/trace/css/caspian.css" />
+        <option value="$PROJECT_DIR$/src/trace/utils/DragResizeMod.java" />
+        <option value="$PROJECT_DIR$/src/trace/view/VerifySubtitle.fxml" />
+        <option value="$PROJECT_DIR$/src/trace/view/sidePane.fxml" />
+        <option value="$PROJECT_DIR$/src/trace/view/AdjustPopup.fxml" />
+        <option value="$PROJECT_DIR$/src/trace/utils/CustomPagationSkin.java" />
+        <option value="$PROJECT_DIR$/src/trace/utils/BehaviorSkinBase.java" />
+        <option value="$PROJECT_DIR$/src/trace/utils/ContextMenuSkin.java" />
+        <option value="$PROJECT_DIR$/src/trace/utils/ContextMenuContent.java" />
+        <option value="$PROJECT_DIR$/src/trace/utils/MenuBarSkin.java" />
+        <option value="$PROJECT_DIR$/src/trace/utils/MenuButtonSkin.java" />
+        <option value="$PROJECT_DIR$/src/trace/utils/DragResizer.java" />
+        <option value="$PROJECT_DIR$/src/trace/model/Layout.java" />
+        <option value="$PROJECT_DIR$/src/trace/controller/SidePaneController.java" />
+        <option value="$PROJECT_DIR$/src/trace/model/Resources.java" />
+        <option value="$PROJECT_DIR$/src/trace/view/selectWord.fxml" />
+        <option value="$PROJECT_DIR$/src/trace/utils/Utils.java" />
+        <option value="$PROJECT_DIR$/src/trace/utils/PaginationUtils.java" />
+        <option value="$PROJECT_DIR$/src/trace/utils/CustomPagination.java" />
+        <option value="$PROJECT_DIR$/src/trace/controller/SpinnerController.java" />
+        <option value="$PROJECT_DIR$/src/trace/model/Config.java" />
+        <option value="$PROJECT_DIR$/src/trace/view/Spinner.fxml" />
+        <option value="$PROJECT_DIR$/src/trace/view/Trace.fxml" />
+        <option value="$PROJECT_DIR$/src/trace/utils/CharsetMatch.java" />
+        <option value="$PROJECT_DIR$/src/trace/subtitle/FormatSRT.java" />
+        <option value="$PROJECT_DIR$/src/trace/view/AdjustSubtitle.fxml" />
+        <option value="$PROJECT_DIR$/src/trace/utils/FileUtils.java" />
+        <option value="$PROJECT_DIR$/resources/progress.json" />
+        <option value="$PROJECT_DIR$/src/trace/css/default.css" />
+        <option value="$PROJECT_DIR$/src/trace/controller/SelectWordController.java" />
+        <option value="$PROJECT_DIR$/src/trace/Main.java" />
+        <option value="$PROJECT_DIR$/src/trace/controller/VerifySubtitleController.java" />
+        <option value="$PROJECT_DIR$/src/trace/css/commons.css" />
+        <option value="$PROJECT_DIR$/src/trace/controller/AdjustSubtitleController.java" />
+        <option value="$PROJECT_DIR$/src/trace/subtitle/Convert.java" />
+        <option value="$PROJECT_DIR$/src/trace/utils/CustomPaginationSkin.java" />
+        <option value="$PROJECT_DIR$/src/trace/view/DetailPane.fxml" />
+        <option value="$PROJECT_DIR$/src/trace/controller/TraceController.java" />
+        <option value="$PROJECT_DIR$/src/trace/controller/DetailPaneController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="245" />
+    <option name="y" value="74" />
+    <option name="width" value="1612" />
+    <option name="height" value="876" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="trace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trace" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trace" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trace" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="trace" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trace" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="trace" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trace" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="trace" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="trace" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="OverrideImplement.combined" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="recentsLimit" value="5" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\workspace\trace\resources" />
+      <recent name="F:\workspace\trace\src\trace\controller" />
+      <recent name="F:\workspace\trace\src\trace\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="trace.utils" />
+      <recent name="trace.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\workspace\trace\src\trace" />
+      <recent name="F:\workspace\trace\src\trace\view" />
+      <recent name="F:\workspace\trace\src\trace\utils" />
+      <recent name="F:\workspace\trace\src\trace\css" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.App">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="trace.App" />
+      <module name="trace" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="trace.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="FileUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="trace.utils.FileUtils" />
+      <module name="trace" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="trace.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="HelloDragAndDrop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="trace.controller.HelloDragAndDrop" />
+      <module name="trace" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="trace.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="trace.Main" />
+      <module name="trace" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="trace.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="sample.Main" />
+      <module name="trace" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="trace.Main" />
+      <module name="trace" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="trace.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="trace.Main" />
+      <module name="trace" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="trace.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="trace.controller.demo" />
+      <module name="trace" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="trace.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.HelloDragAndDrop" />
+      <item itemvalue="Application.demo" />
+      <item itemvalue="Application.FileUtils" />
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.App" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.FileUtils" />
+        <item itemvalue="Application.demo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+      <created>1359379246138</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1359379246138</updated>
+      <workItem from="1359379250712" duration="1302000" />
+    </task>
+    <task id="LOCAL-00001" summary="初始化仓库">
+      <created>1532940968510</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1532940968510</updated>
+    </task>
+    <task id="LOCAL-00002" summary="删除了无效的字体设置，设置 字幕列表的容器的背景颜色">
+      <created>1532949070336</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1532949070336</updated>
+    </task>
+    <task id="LOCAL-00003" summary="删除了无效的字体">
+      <created>1532949256498</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1532949256498</updated>
+    </task>
+    <task id="LOCAL-00004" summary="修复 MediaView 右边的黑边">
+      <created>1532968670267</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1532968670267</updated>
+    </task>
+    <task id="LOCAL-00005" summary="删除了主界面的 “选择认识的单词” 功能">
+      <created>1533038238641</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1533038238641</updated>
+    </task>
+    <task id="LOCAL-00006" summary="第一版，全部功能开发完成">
+      <created>1534727416072</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1534727416072</updated>
+    </task>
+    <task id="LOCAL-00007" summary="完成了字幕显示的算法">
+      <created>1534739971967</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1534739971967</updated>
+    </task>
+    <task id="LOCAL-00008" summary="改了接收拖动文件的目标视图容器">
+      <created>1534740146412</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1534740146412</updated>
+    </task>
+    <task id="LOCAL-00009" summary="选择了播放语境就播放视频">
+      <created>1534740271710</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1534740271710</updated>
+    </task>
+    <task id="LOCAL-00010" summary="添加了等待动画">
+      <created>1534740330967</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1534740330967</updated>
+    </task>
+    <task id="LOCAL-00011" summary="修复一些UI">
+      <created>1534740367665</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1534740367665</updated>
+    </task>
+    <task id="LOCAL-00012" summary="修复 因为 FXML 版本，IDEA 报的警告">
+      <created>1534761003239</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1534761003239</updated>
+    </task>
+    <task id="LOCAL-00013" summary="删除无效文件">
+      <created>1534787331033</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1534787331034</updated>
+    </task>
+    <task id="LOCAL-00014" summary="测试静态资源">
+      <created>1534867799702</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1534867799702</updated>
+    </task>
+    <task id="LOCAL-00015" summary="修复读取文件乱码">
+      <created>1534877845370</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1534877845370</updated>
+    </task>
+    <task id="LOCAL-00016" summary="删除无效注释">
+      <created>1534877920893</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1534877920894</updated>
+    </task>
+    <task id="LOCAL-00017" summary="调整 字幕遮挡器，循环设置按钮 的位置">
+      <created>1534877999106</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1534877999106</updated>
+    </task>
+    <task id="LOCAL-00018" summary="删除静态属性">
+      <created>1534878149041</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1534878149041</updated>
+    </task>
+    <task id="LOCAL-00019" summary="添加等待动画，设置搜索结果按钮的 Hover">
+      <created>1534881584563</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1534881584563</updated>
+    </task>
+    <task id="LOCAL-00020" summary="删除所有的命令行打印语句，删除一些注释">
+      <created>1534883033442</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1534883033442</updated>
+    </task>
+    <task id="LOCAL-00021" summary="刚刚删除注释的时候，把一个功能语句删除了，现在恢复">
+      <created>1534883451801</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1534883451801</updated>
+    </task>
+    <task id="LOCAL-00022" summary="删除两条命令行打印语句">
+      <created>1534884930339</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1534884930339</updated>
+    </task>
+    <task id="LOCAL-00023" summary="设置详情页面 detailWord 的宽度，调整搜索结果的样式">
+      <created>1534934872014</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1534934872014</updated>
+    </task>
+    <task id="LOCAL-00024" summary="给 DetailPane 添加字幕的功能">
+      <created>1534965391961</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1534965391961</updated>
+    </task>
+    <task id="LOCAL-00025" summary="设置单词的字幕限制为 20 条">
+      <created>1534965520785</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1534965520785</updated>
+    </task>
+    <task id="LOCAL-00026" summary="重构 CustomPagination">
+      <created>1536250614992</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1536250614992</updated>
+    </task>
+    <task id="LOCAL-00027" summary="增加自动判断字幕文件的字符集功能">
+      <created>1536250694194</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1536250694194</updated>
+    </task>
+    <task id="LOCAL-00028" summary="把 IO 改成自动关闭资源，优化时间轴调整的UI">
+      <created>1536250936713</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1536250936713</updated>
+    </task>
+    <task id="LOCAL-00029" summary="修复 Spinner 的bug。使交互更流畅。选择单词之后可以自动更新分页控件。优化了处理字幕的方法，把HashMap 换成 LinkedHashMap, IO 改成了自动关闭资源的try。">
+      <created>1536251285924</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1536251285924</updated>
+    </task>
+    <task id="LOCAL-00030" summary="修复了时间显示的bug。 修复了 Platform.runlater() 使用不当的代码。给 infinitePop 添加了不透明度功能。重构了 starAction 方法。">
+      <created>1536251567253</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1536251567253</updated>
+    </task>
+    <task id="LOCAL-00031" summary="给持久化json 的IO操作改成自动关闭资源的方法。添加了一个持久化方法，持久化 Map">
+      <created>1536259737730</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1536259737730</updated>
+    </task>
+    <task id="LOCAL-00032" summary="可以播放多条字幕，添加了艾宾浩斯记忆曲线来记忆单词。合并了两个初始化方法。&#10;修复了字幕超过10条的bug,">
+      <created>1536765302597</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1536765302597</updated>
+    </task>
+    <task id="LOCAL-00033" summary="把所有的配置属性都改成了可以数据绑定的了">
+      <created>1536771591215</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1536771591215</updated>
+    </task>
+    <task id="LOCAL-00034" summary="修复了一个由 config 引起的空指针bug">
+      <created>1536774580288</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1536774580288</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Main 方法名称改成了 App ,把字体的两个属性合并成了一个 Font。&#10;commons.css 文件里的 flowPane 里的单词的 左右 padding 从10 改成了5。">
+      <created>1536776451511</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1536776451511</updated>
+    </task>
+    <task id="LOCAL-00036" summary="删除了一个没有使用的初始化方法">
+      <created>1536780727972</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1536780727972</updated>
+    </task>
+    <task id="LOCAL-00037" summary="重构了一些代码，使程序更具可读性。">
+      <created>1536865252433</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1536865252433</updated>
+    </task>
+    <task id="LOCAL-00038" summary="修改了一些默认的配置">
+      <created>1536865949339</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1536865949339</updated>
+    </task>
+    <task id="LOCAL-00039" summary="把 SubtitleVBox 里的 HBox 换成了 JFXButton">
+      <created>1536913169132</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1536913169132</updated>
+    </task>
+    <task id="LOCAL-00040" summary="优化了视频播放和左右切换页面。">
+      <created>1537010641049</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1537010641050</updated>
+    </task>
+    <task id="LOCAL-00041" summary="修复 markLabel 跨页面无效。">
+      <created>1537028599664</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1537028599664</updated>
+    </task>
+    <task id="LOCAL-00042" summary="修复了 day 和 grogress 不显示的bug, 重构了MediaPlayer 释放资源的方法">
+      <created>1537177508949</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1537177508949</updated>
+    </task>
+    <task id="LOCAL-00043" summary="更改启动类名称为 App">
+      <created>1537193123969</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1537193123969</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1302000" />
+  </component>
+  <component name="TodoView" selected-index="3">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="8" />
+      <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.49946582" weight="0.32824427" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.261723" />
+      <window_info anchor="right" id="Palette&#9;" order="1" />
+      <window_info id="Image Layers" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5021322" side_tool="true" weight="0.29116684" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.32959402" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.21810251" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4978678" visible="true" weight="0.2944384" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.3293348" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="Designer" order="0" />
+      <window_info active="true" content_ui="combo" id="Project" order="4" sideWeight="0.55332303" visible="true" weight="0.25266525" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="14" weight="0.45704845" />
+      <window_info anchor="bottom" id="JProfiler" order="14" weight="0.3293348" />
+      <window_info id="Learn" order="3" weight="0.32932165" />
+      <window_info id="Structure" order="6" sideWeight="0.44667697" side_tool="true" visible="true" weight="0.25266525" />
+      <window_info anchor="right" id="Ant Build" order="10" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info id="Favorites" order="7" sideWeight="0.5910578" side_tool="true" weight="0.26226014" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.36968374" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="14" />
+      <window_info anchor="right" id="Coverage" order="9" weight="0.31303418" />
+      <window_info anchor="bottom" id="Changes" order="11" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="right" id="JetGradle" order="5" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Problems" order="10" />
+      <window_info anchor="bottom" id="Profiler" order="14" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="8" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.3304253" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="3" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="1" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="Application Servers" order="8" />
+      <window_info id="Designer" order="0" />
+      <window_info id="Learn" order="3" weight="0.32932165" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4978678" weight="0.29116684" />
+      <window_info anchor="right" id="JetGradle" order="5" />
+      <window_info anchor="right" id="Ant Build" order="10" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="8" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Profiler" order="14" />
+      <window_info id="Favorites" order="7" sideWeight="0.5910578" side_tool="true" weight="0.26226014" />
+      <window_info anchor="bottom" id="Changes" order="11" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="3" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5021322" side_tool="true" weight="0.29116684" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.49946582" weight="0.32824427" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="15" weight="0.45801526" />
+      <window_info anchor="bottom" id="Problems" order="10" />
+      <window_info anchor="bottom" id="JProfiler" order="16" weight="0.3293348" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.8756816" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.32959402" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.3293348" />
+      <window_info active="true" content_ui="combo" id="Project" order="4" sideWeight="0.5561614" visible="true" weight="0.29850745" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.261723" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="17" />
+      <window_info id="Image Layers" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info id="Structure" order="6" sideWeight="0.4438386" side_tool="true" visible="true" weight="0.29850745" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="right" id="Coverage" order="9" weight="0.31303418" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.3304253" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.36968374" />
+    </layout-to-restore>
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <MESSAGE value="添加等待动画，设置搜索结果按钮的 Hover" />
+    <MESSAGE value="删除所有的命令行打印语句，删除一些注释" />
+    <MESSAGE value="刚刚删除注释的时候，把一个功能语句删除了，现在恢复" />
+    <MESSAGE value="删除两条命令行打印语句" />
+    <MESSAGE value="设置详情页面 detailWord 的宽度，调整搜索结果的样式" />
+    <MESSAGE value="给 DetailPane 添加字幕的功能" />
+    <MESSAGE value="设置单词的字幕限制为 20 条" />
+    <MESSAGE value="重构 CustomPagination" />
+    <MESSAGE value="增加自动判断字幕文件的字符集功能" />
+    <MESSAGE value="把 IO 改成自动关闭资源，优化时间轴调整的UI" />
+    <MESSAGE value="修复 Spinner 的bug。使交互更流畅。选择单词之后可以自动更新分页控件。优化了处理字幕的方法，把HashMap 换成 LinkedHashMap, IO 改成了自动关闭资源的try。" />
+    <MESSAGE value="修复了时间显示的bug。 修复了 Platform.runlater() 使用不当的代码。给 infinitePop 添加了不透明度功能。重构了 starAction 方法。" />
+    <MESSAGE value="给持久化json 的IO操作改成自动关闭资源的方法。添加了一个持久化方法，持久化 Map" />
+    <MESSAGE value="可以播放多条字幕，添加了艾宾浩斯记忆曲线来记忆单词。合并了两个初始化方法。&#10;修复了字幕超过10条的bug," />
+    <MESSAGE value="把所有的配置属性都改成了可以数据绑定的了" />
+    <MESSAGE value="修复了一个由 config 引起的空指针bug" />
+    <MESSAGE value="Main 方法名称改成了 App ,把字体的两个属性合并成了一个 Font。&#10;commons.css 文件里的 flowPane 里的单词的 左右 padding 从10 改成了5。" />
+    <MESSAGE value="删除了一个没有使用的初始化方法" />
+    <MESSAGE value="重构了一些代码，使程序更具可读性。" />
+    <MESSAGE value="修改了一些默认的配置" />
+    <MESSAGE value="把 SubtitleVBox 里的 HBox 换成了 JFXButton" />
+    <MESSAGE value="优化了视频播放和左右切换页面。" />
+    <MESSAGE value="修复 markLabel 跨页面无效。" />
+    <MESSAGE value="修复了 day 和 grogress 不显示的bug, 重构了MediaPlayer 释放资源的方法" />
+    <MESSAGE value="更改启动类名称为 App" />
+    <option name="LAST_COMMIT_MESSAGE" value="更改启动类名称为 App" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="138" />
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://F:/JavaFX/JavaFX_liberies/jfoenix-8.0.1-sources.jar!/com/jfoenix/controls/JFXPopup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="160" column="23" lean-forward="true" selection-start-line="160" selection-start-column="23" selection-end-line="160" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/JavaFX/JavaFX_liberies/jfoenix-8.0.1-sources.jar!/com/jfoenix/skins/JFXPopupSkin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="101" column="27" lean-forward="true" selection-start-line="101" selection-start-column="27" selection-end-line="101" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/word/basic.json" />
+    <entry file="file://$PROJECT_DIR$/src/trace/resources/word/basic.json" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/io/FileInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="91" column="26" selection-start-line="91" selection-start-column="11" selection-end-line="91" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/dictionary.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/trace/view/DetailPaneController.java" />
+    <entry file="jar://F:/JavaFX/JavaFX_liberies/jfoenix-8.0.1.jar!/css/controls/jfx-color-picker.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/JavaFX/JavaFX_liberies/jfoenix-8.0.1-sources.jar!/com/jfoenix/controls/JFXColorPicker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/progress.json" />
+    <entry file="file://$PROJECT_DIR$/src/trace/css/default.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/trace/utils/DragResizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="36" column="36" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/trace/utils/DragResizeMod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/javafx-src.zip!/com/sun/javafx/binding/ExpressionHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="360" selection-start-line="360" selection-end-line="360" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/javafx-src.zip!/com/sun/javafx/tk/quantum/GlassViewEventHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="294" selection-start-line="294" selection-end-line="294" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/javafx-src.zip!/javafx/collections/FXCollections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="362" column="41" lean-forward="true" selection-start-line="362" selection-start-column="41" selection-end-line="362" selection-end-column="41" />
+          <folding>
+            <element signature="e#13392#13393#0" expanded="true" />
+            <element signature="e#13449#13450#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/javafx-src.zip!/javafx/application/Platform.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="82" column="26" selection-start-line="82" selection-start-column="21" selection-end-line="82" selection-end-column="29" />
+          <folding>
+            <element signature="e#2657#2658#0" expanded="true" />
+            <element signature="e#2704#2705#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/javafx-src.zip!/com/sun/javafx/application/PlatformImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="266" column="23" selection-start-line="266" selection-start-column="23" selection-end-line="266" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/trace/view/AdjustSubtitle.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/javafx-src.zip!/com/sun/glass/ui/win/WinApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2698">
+          <caret line="176" selection-start-line="176" selection-end-line="176" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module_trace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-876" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/trace/controller/AdjustSubtitleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4434">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/trace/controller/DragResizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="80" column="19" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/trace/controller/SelectWordController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-197">
+          <caret line="249" selection-start-line="249" selection-end-line="249" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/trace/controller/SidePaneController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="27" column="57" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/trace/controller/SpinnerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/trace/controller/VerifySubtitleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="734">
+          <caret line="194" column="1" lean-forward="true" selection-start-line="194" selection-start-column="1" selection-end-line="194" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/trace/subtitle/Caption.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/trace/subtitle/Convert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/trace/subtitle/FormatASS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/trace/subtitle/FormatSRT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="47" column="40" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/trace/subtitle/FormatSTL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/trace/subtitle/FormatTTML.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/trace/subtitle/IOClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/trace/subtitle/ParseSTR.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1698">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/trace/utils/FileUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2021">
+          <caret line="89" column="77" selection-start-line="89" selection-start-column="62" selection-end-line="89" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/trace/subtitle/FatalParsingException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/trace/subtitle/FormatSCC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/javafx-src.zip!/javafx/beans/value/WritableIntegerValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="56" column="9" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/javafx-src.zip!/javafx/scene/control/Pagination.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="268" column="73" lean-forward="true" selection-start-line="268" selection-start-column="73" selection-end-line="268" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/trace/utils/CustomPaginationSkin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-114" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/javafx-src.zip!/javafx/fxml/FXMLLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="1667" column="45" lean-forward="true" selection-start-line="1667" selection-start-column="45" selection-end-line="1667" selection-end-column="45" />
+          <folding>
+            <element signature="e#66921#66922#0" expanded="true" />
+            <element signature="e#66966#66967#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/javafx-src.zip!/javafx/scene/media/MediaPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="2371" column="32" selection-start-line="2371" selection-start-column="32" selection-end-line="2371" selection-end-column="32" />
+          <folding>
+            <element signature="e#59465#59466#0" expanded="true" />
+            <element signature="e#59512#59513#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/javafx-src.zip!/com/sun/media/jfxmedia/MediaPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5776">
+          <caret line="342" column="16" selection-start-line="342" selection-start-column="16" selection-end-line="342" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/trace/view/DetailPane.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="32" column="33" lean-forward="true" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="jar://F:/JavaFX/JavaFX_liberies/jfoenix-8.0.1.jar!/css/controls/jfx-button.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/JavaFX/JavaFX_liberies/jfoenix-8.0.1-sources.jar!/com/jfoenix/controls/JFXButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2762">
+          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/trace/controller/TraceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10868">
+          <caret line="628" column="64" selection-start-line="628" selection-start-column="64" selection-end-line="628" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/trace/css/commons.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4484">
+          <caret line="236" column="1" selection-start-line="236" selection-start-column="1" selection-end-line="236" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/trace/controller/DetailPaneController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="1836" column="9" selection-start-line="1836" selection-start-column="9" selection-end-line="1836" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/trace/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>trace</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>trace</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>jfoenix-8.0.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

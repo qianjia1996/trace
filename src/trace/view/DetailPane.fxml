@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.media.MediaView?>
+<?import javafx.scene.text.*?>
+<?import java.net.URL?>
+<BorderPane fx:id="rootPane" prefHeight="567.0" prefWidth="1154.0" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="trace.controller.DetailPaneController">
+   <center>
+      <AnchorPane fx:id="mediaPane" prefHeight="517.0" prefWidth="1055.0" style="-fx-background-color: #000000;">
+         <children>
+            <Pane fx:id="mediaViewPane" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <MediaView fx:id="mediaView" cache="true" cacheHint="QUALITY" onMouseClicked="#MediaViewClicked" />
+                   <VBox fx:id="mediaControll" prefHeight="64.0">
+                       <children>
+                           <AnchorPane fx:id="timeLinePane" prefHeight="30.0">
+                               <children>
+                                   <JFXProgressBar fx:id="timeProgress" progress="0.0" visible="false"
+                                                   AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
+                                                   AnchorPane.topAnchor="5.0"/>
+                               </children>
+                               <VBox.margin>
+                                   <Insets left="5.0" right="5.0"/>
+                               </VBox.margin>
+                           </AnchorPane>
+                           <AnchorPane>
+                               <children>
+                                   <HBox fx:id="timeHBox" alignment="CENTER" spacing="25.0"
+                                         AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
+                                         AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                       <children>
+                                           <Label fx:id="startTimeLabel" alignment="CENTER" contentDisplay="CENTER"
+                                                  layoutX="115.0" layoutY="24.0" textAlignment="CENTER"
+                                                  textFill="WHITE">
+                                               <font>
+                                                   <Font size="16.0"/>
+                                               </font>
+                                           </Label>
+                                           <Label fx:id="currentTime" alignment="CENTER" contentDisplay="CENTER"
+                                                  textAlignment="CENTER" textFill="WHITE">
+                                               <font>
+                                                   <Font size="16.0"/>
+                                               </font>
+                                           </Label>
+                                           <Label fx:id="endTimeLabel" alignment="CENTER" contentDisplay="CENTER"
+                                                  layoutX="115.0" layoutY="24.0" textAlignment="CENTER"
+                                                  textFill="WHITE">
+                                               <font>
+                                                   <Font size="16.0"/>
+                                               </font>
+                                           </Label>
+                                       </children>
+                                   </HBox>
+                                   <HBox alignment="CENTER" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0"
+                                         AnchorPane.topAnchor="0.0">
+                                       <children>
+                                           <Label fx:id="totalTimeLabel" alignment="CENTER" contentDisplay="CENTER"
+                                                  textAlignment="CENTER" textFill="WHITE" visible="false">
+                                       <font>
+                                           <Font size="16.0"/>
+                                       </font>
+                                       <HBox.margin>
+                                           <Insets right="10.0"/>
+                                       </HBox.margin>
+                                               <opaqueInsets>
+                                                   <Insets/>
+                                               </opaqueInsets>
+                                           </Label>
+                                       </children>
+                                   </HBox>
+                                   <HBox fx:id="controllHBox" spacing="8.0" visible="false">
+                                       <children>
+                                           <HBox alignment="CENTER" prefHeight="50.0" prefWidth="130.0">
+                                               <children>
+                                                   <JFXButton fx:id="volume" alignment="CENTER" contentDisplay="CENTER"
+                                                              graphicTextGap="0.0" onAction="#muteAction"
+                                                              prefHeight="50.0" prefWidth="50.0"
+                                                              style="-fx-background-color: transparent;" text=" ">
+                                                       <graphic>
+                                                           <ImageView fitHeight="34.0" fitWidth="34.0"
+                                                                      pickOnBounds="true" preserveRatio="true">
+                                                               <image>
+                                                                   <Image url="@../images/Audio_48.png"/>
+                                                               </image>
+                                                           </ImageView>
+                                                       </graphic>
+                                                   </JFXButton>
+                                                   <JFXSlider fx:id="volumeSlider" prefHeight="14.0" prefWidth="80.0"
+                                                              stylesheets="@../css/audio-slider.css">
+                                                       <cursor>
+                                                           <Cursor fx:constant="HAND"/>
+                                                       </cursor>
+                                                   </JFXSlider>
+                                               </children>
+                                           </HBox>
+                                           <JFXButton fx:id="playButton" alignment="CENTER" contentDisplay="CENTER"
+                                                      graphicTextGap="0.0" maxWidth="-Infinity" onAction="#PlayAction"
+                                                      prefHeight="50.0" prefWidth="50.0"
+                                                      style="-fx-background-color: transparent;" text=" ">
+                                               <graphic>
+                                                   <ImageView fitHeight="34.0" fitWidth="34.0" pickOnBounds="true"
+                                                              preserveRatio="true">
+                                                       <image>
+                                                           <Image url="@../images/Play_48.png"/>
+                                                       </image>
+                                                   </ImageView>
+                                               </graphic>
+                                               <cursor>
+                                                   <Cursor fx:constant="HAND"/>
+                                               </cursor>
+                                           </JFXButton>
+                                       </children>
+                                   </HBox>
+                               </children>
+                           </AnchorPane>
+                       </children>
+                   </VBox>
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+   </center>
+   <top>
+      <AnchorPane styleClass="detail-Popup-Title" stylesheets="@../css/commons.css" BorderPane.alignment="CENTER">
+         <children>
+             <JFXButton alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0" layoutX="861.0"
+                        onMouseClicked="#closePopup" style="-fx-background-radius: 0;" styleClass="detail-Popup-Title"
+                        text=" " textAlignment="CENTER" textFill="#4c4c4c" AnchorPane.rightAnchor="0.0"
+                        AnchorPane.topAnchor="0.0">
+               <graphic>
+                  <ImageView fitHeight="34.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/Delete_48.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+             <VBox alignment="CENTER" layoutX="15.0" layoutY="5.0" AnchorPane.bottomAnchor="0.0"
+                   AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="0.0">
+                 <children>
+                     <Text fx:id="title" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER">
+                         <font>
+                             <Font size="16.0"/>
+                         </font>
+                     </Text>
+                 </children>
+             </VBox>
+         </children>
+         <BorderPane.margin>
+            <Insets left="61.0" right="61.0" />
+         </BorderPane.margin>
+      </AnchorPane>
+   </top>
+   <stylesheets>
+      <URL value="@../css/default.css" />
+      <URL value="@../css/commons.css" />
+   </stylesheets>
+   <left>
+      <AnchorPane>
+         <children>
+             <JFXButton fx:id="previousButton" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0"
+                        onMouseClicked="#previousAction" prefWidth="50.0" ripplerFill="BLACK"
+                        style="-fx-background-radius: 0; -fx-background-color: transparent;" styleClass="forward"
+                        text=" " textAlignment="CENTER" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
+                        AnchorPane.topAnchor="0.0">
+               <graphic>
+                  <ImageView fitHeight="45.0" fitWidth="45.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/Back_64.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+   </left>
+   <right>
+       <AnchorPane fx:id="detailAnchorPane" maxWidth="531.0" minWidth="531.0" prefWidth="531.0"
+                   BorderPane.alignment="CENTER">
+         <children>
+            <VBox fx:id="detailVBox" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="61.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <VBox fx:id="detailWordVBox" alignment="CENTER" prefHeight="200.0" styleClass="detailTextVBox">
+                     <children>
+                        <Text fx:id="detailWord" fill="GREY" strokeType="OUTSIDE" strokeWidth="0.0" text="single" textAlignment="CENTER">
+                           <effect>
+                              <DropShadow height="10.0" radius="4.5" width="10.0" />
+                           </effect>
+                           <font>
+                              <Font size="48.0" />
+                           </font>
+                        </Text>
+                         <HBox alignment="CENTER" focusTraversable="true" prefHeight="35.0" prefWidth="454.0"
+                               spacing="10.0">
+                           <children>
+                               <JFXButton fx:id="copy" alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0"
+                                          layoutX="218.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity"
+                                          minHeight="-Infinity" minWidth="-Infinity" onAction="#copyAction"
+                                          prefHeight="35.0" prefWidth="35.0" ripplerFill="GREY"
+                                          style="-fx-background-radius: 0px; -fx-background-color: #2D2D2D;"
+                                          styleClass="starButton" text=" ">
+                                 <graphic>
+                                    <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../images/Copy_96px.png" />
+                                       </image>
+                                        <cursor>
+                                            <Cursor fx:constant="DEFAULT"/>
+                                        </cursor>
+                                    </ImageView>
+                                 </graphic>
+                                  <cursor>
+                                      <Cursor fx:constant="DEFAULT"/>
+                                  </cursor>
+                                  <HBox.margin>
+                                      <Insets left="1.0"/>
+                                  </HBox.margin>
+                              </JFXButton>
+                               <JFXButton fx:id="star" alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0"
+                                          layoutX="243.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity"
+                                          minHeight="-Infinity" minWidth="-Infinity" onAction="#starAction"
+                                          prefHeight="35.0" prefWidth="35.0" ripplerFill="GREY"
+                                          style="-fx-background-radius: 0px; -fx-background-color: #2D2D2D;"
+                                          styleClass="starButton" text=" ">
+                                   <graphic>
+                                       <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true"
+                                                  preserveRatio="true">
+                                           <image>
+                                               <Image url="@../images/Star_96px.png"/>
+                                           </image>
+                                           <cursor>
+                                               <Cursor fx:constant="DEFAULT"/>
+                                           </cursor>
+                                       </ImageView>
+                                   </graphic>
+                                   <cursor>
+                                       <Cursor fx:constant="DEFAULT"/>
+                                   </cursor>
+                                   <HBox.margin>
+                                       <Insets left="2.0" right="1.0"/>
+                                   </HBox.margin>
+                               </JFXButton>
+                           </children>
+                           <VBox.margin>
+                              <Insets top="10.0" />
+                           </VBox.margin>
+                           <cursor>
+                              <Cursor fx:constant="DEFAULT" />
+                           </cursor>
+                        </HBox>
+                         <VBox alignment="CENTER" spacing="4.0">
+                             <children>
+                                 <JFXProgressBar fx:id="progress" progress="0.12">
+                                     <VBox.margin>
+                                         <Insets top="10.0"/>
+                                     </VBox.margin>
+                                 </JFXProgressBar>
+                                 <HBox alignment="CENTER">
+                                     <children>
+                                         <Label fx:id="progressLabel" alignment="CENTER" prefWidth="35.0" text="1/10"
+                                                textFill="GREY">
+                                             <HBox.margin>
+                                                 <Insets left="6.0"/>
+                                             </HBox.margin>
+                                         </Label>
+                                         <Label fx:id="day" alignment="CENTER" prefWidth="50.0" text=" "
+                                                textFill="GREY">
+                                             <HBox.margin>
+                                                 <Insets left="6.0"/>
+                                             </HBox.margin>
+                                         </Label>
+                                     </children>
+                                 </HBox>
+                             </children>
+                             <VBox.margin>
+                                 <Insets top="10.0"/>
+                             </VBox.margin>
+                         </VBox>
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="DEFAULT" />
+                     </cursor>
+                  </VBox>
+                   <ScrollPane fx:id="scrollPane" fitToHeight="true" fitToWidth="true" focusTraversable="false"
+                               hbarPolicy="NEVER" maxWidth="470.0" minWidth="470.0" pannable="true" prefWidth="470.0"
+                               style="-fx-background-color: #242424;">
+                     <content>
+                        <VBox fx:id="subtitlesVBox" styleClass="subtitleVBox" />
+                     </content>
+                  </ScrollPane>
+                   <Separator prefWidth="200.0"/>
+                   <HBox alignment="CENTER_LEFT" focusTraversable="true" styleClass="subtitleVBox">
+                     <children>
+                         <JFXButton fx:id="infiniteButton" alignment="CENTER" contentDisplay="CENTER"
+                                    graphicTextGap="0.0" maxWidth="-Infinity" onAction="#infiniteAction"
+                                    prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent;"
+                                    text=" ">
+                             <cursor>
+                                 <Cursor fx:constant="HAND"/>
+                             </cursor>
+                             <graphic>
+                                 <ImageView fitHeight="34.0" fitWidth="110.0" pickOnBounds="true" preserveRatio="true">
+                                     <image>
+                                         <Image url="@../images/Infinite_48px.png"/>
+                                     </image>
+                                 </ImageView>
+                             </graphic>
+                             <HBox.margin>
+                                 <Insets/>
+                             </HBox.margin>
+                         </JFXButton>
+                         <JFXButton fx:id="subtitleCover" alignment="CENTER" contentDisplay="CENTER"
+                                    graphicTextGap="0.0" maxWidth="-Infinity" onAction="#coverAction" prefHeight="50.0"
+                                    prefWidth="50.0" style="-fx-background-color: transparent;" text=" ">
+                           <graphic>
+                              <ImageView fitHeight="34.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                     <Image url="@../images/Subtitles_48px.png"/>
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                           <HBox.margin>
+                               <Insets/>
+                           </HBox.margin>
+                         </JFXButton>
+                         <JFXButton fx:id="settings" alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0"
+                                    layoutX="60.0" layoutY="10.0" maxWidth="-Infinity" prefHeight="50.0"
+                                    prefWidth="50.0" style="-fx-background-color: transparent;" text=" ">
+                             <graphic>
+                                 <ImageView fitHeight="34.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
+                                     <image>
+                                         <Image url="@../images/Settings_64px.png"/>
+                                     </image>
+                                 </ImageView>
+                             </graphic>
+                             <cursor>
+                                 <Cursor fx:constant="HAND"/>
+                             </cursor>
+                             <HBox.margin>
+                                 <Insets right="20.0"/>
+                           </HBox.margin>
+                        </JFXButton>
+                         <HBox fx:id="settingsHBox" alignment="CENTER" focusTraversable="true" spacing="8.0">
+                           <children>
+                               <Label text="对话的前后语境 " textFill="WHITE">
+                                   <font>
+                                       <Font size="16.0"/>
+                                   </font>
+                               </Label>
+                               <ChoiceBox fx:id="choicebox" prefHeight="23.0" prefWidth="70.0"/>
+                           </children>
+                           <HBox.margin>
+                              <Insets left="8.0" />
+                           </HBox.margin>
+                        </HBox>
+                     </children>
+                  </HBox>
+               </children>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+            </VBox>
+             <JFXButton fx:id="nextButton" alignment="CENTER_RIGHT" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0"
+                        layoutX="454.0" layoutY="232.0" onMouseClicked="#nextAction" ripplerFill="BLACK"
+                        style="-fx-background-radius: 0; -fx-background-color: transparent;" styleClass="forward"
+                        text=" " textAlignment="CENTER" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0"
+                        AnchorPane.topAnchor="0.0">
+               <graphic>
+                  <ImageView fitHeight="45.0" fitWidth="45.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/Forward_64.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+         </children>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </AnchorPane>
+   </right>
+</BorderPane>

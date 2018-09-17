@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1125.0" style="-fx-background-color: #212121;" xmlns:fx="http://javafx.com/fxml/1" fx:controller="trace.controller.SelectWordController">
+   <children>
+      <HBox alignment="CENTER" style="-fx-background-color: #1F1F1F;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label text="选择熟悉的单词，" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <HBox.margin>
+                  <Insets bottom="10.0" />
+               </HBox.margin>
+               <padding>
+                  <Insets top="10.0" />
+               </padding>
+            </Label>
+            <Label layoutX="468.0" layoutY="15.0" text="剩下的单词就是需要学习的单词" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="select" textFill="#ff5246">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="50.0" />
+               </HBox.margin>
+            </Label>
+            <Label layoutX="633.0" layoutY="20.0" text=" / " textFill="#ff5246">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Label>
+            <Label fx:id="total" layoutX="648.0" layoutY="15.0" textFill="#ff5246">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <Separator layoutX="10.0" layoutY="10.0" prefWidth="200.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="44.0" />
+      <ScrollPane fx:id="scrollPane" fitToHeight="true" fitToWidth="true" hbarPolicy="NEVER" pannable="true" prefViewportWidth="860.0" style="-fx-background-color: transparent; -fx-background: transparent;" vbarPolicy="ALWAYS" AnchorPane.bottomAnchor="80.0" AnchorPane.leftAnchor="44.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="44.0">
+         <content>
+            <FlowPane fx:id="flowPane" hgap="5.0" prefHeight="400.0" prefWidth="600.0" vgap="10.0">
+               <padding>
+                  <Insets top="10.0" />
+               </padding></FlowPane>
+         </content>
+      </ScrollPane>
+      <HBox alignment="CENTER" prefHeight="80.0" prefWidth="200.0" spacing="50.0" style="-fx-background-color: #1F1F1F;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <VBox alignment="CENTER" layoutX="418.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <JFXButton fx:id="affirm" buttonType="RAISED" onAction="#affirmAction" prefHeight="40.0" prefWidth="85.0" style="-fx-border-color: #313131;" styleClass="affirm" text="确认" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </JFXButton>
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <JFXButton fx:id="cancel" buttonType="RAISED" onAction="#cancelAction" prefHeight="40.0" prefWidth="85.0" style="-fx-border-color: #313131;" styleClass="affirm" text="取消" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font></JFXButton>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <Separator layoutX="10.0" layoutY="452.0" prefWidth="200.0" AnchorPane.bottomAnchor="80.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+   </children>
+   <stylesheets>
+      <URL value="@../css/default.css" />
+      <URL value="@../css/commons.css" />
+   </stylesheets>
+</AnchorPane>

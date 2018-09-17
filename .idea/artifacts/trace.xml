@@ -1,0 +1,24 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="trace">
+    <output-path>$PROJECT_DIR$/out/artifacts/trace</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="trace.App" />
+        <option name="description" value="" />
+        <option name="height" value="649" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="title" value="" />
+        <option name="vendor" value="" />
+        <option name="version" value="" />
+        <option name="width" value="1128" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="trace.jar">
+        <element id="module-output" name="trace" />
+      </element>
+      <element id="library" level="project" name="gson-2.8.5" />
+      <element id="library" level="project" name="jfoenix-8.0.1" />
+    </root>
+  </artifact>
+</component>

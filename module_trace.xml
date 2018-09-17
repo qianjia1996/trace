@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_trace" default="compile.module.trace">
+  <dirname property="module.trace.basedir" file="${ant.file.module_trace}"/>
+  
+  <property name="module.jdk.home.trace" value="${jdk.home.1.8}"/>
+  <property name="module.jdk.bin.trace" value="${jdk.bin.1.8}"/>
+  <property name="module.jdk.classpath.trace" value="jdk.classpath.1.8"/>
+  
+  <property name="compiler.args.trace" value="-encoding UTF-8 -source 8 -target 8 ${compiler.args}"/>
+  
+  <property name="trace.output.dir" value="${module.trace.basedir}/out/production/trace"/>
+  <property name="trace.testoutput.dir" value="${module.trace.basedir}/out/test/trace"/>
+  
+  <path id="trace.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="trace.module.production.classpath">
+    <path refid="${module.jdk.classpath.trace}"/>
+    <path refid="library.gson-2.8.5.classpath"/>
+    <path refid="library.jfoenix-8.0.1.classpath"/>
+  </path>
+  
+  <path id="trace.runtime.production.module.classpath">
+    <pathelement location="${trace.output.dir}"/>
+    <path refid="library.gson-2.8.5.classpath"/>
+    <path refid="library.jfoenix-8.0.1.classpath"/>
+  </path>
+  
+  <path id="trace.module.classpath">
+    <path refid="${module.jdk.classpath.trace}"/>
+    <pathelement location="${trace.output.dir}"/>
+    <path refid="library.gson-2.8.5.classpath"/>
+    <path refid="library.jfoenix-8.0.1.classpath"/>
+  </path>
+  
+  <path id="trace.runtime.module.classpath">
+    <pathelement location="${trace.testoutput.dir}"/>
+    <pathelement location="${trace.output.dir}"/>
+    <path refid="library.gson-2.8.5.classpath"/>
+    <path refid="library.jfoenix-8.0.1.classpath"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.trace">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.trace">
+    <patternset refid="excluded.from.module.trace"/>
+  </patternset>
+  
+  <path id="trace.module.sourcepath">
+    <dirset dir="${module.trace.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.trace" depends="compile.module.trace.production,compile.module.trace.tests" description="Compile module trace"/>
+  
+  <target name="compile.module.trace.production" depends="register.custom.compilers" description="Compile module trace; production classes">
+    <mkdir dir="${trace.output.dir}"/>
+    <javac2 destdir="${trace.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.trace}/javac">
+      <compilerarg line="${compiler.args.trace}"/>
+      <bootclasspath refid="trace.module.bootclasspath"/>
+      <classpath refid="trace.module.production.classpath"/>
+      <src refid="trace.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.trace"/>
+    </javac2>
+    
+    <copy todir="${trace.output.dir}">
+      <fileset dir="${module.trace.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.trace.tests" depends="register.custom.compilers,compile.module.trace.production" description="compile module trace; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.trace" description="cleanup module">
+    <delete dir="${trace.output.dir}"/>
+    <delete dir="${trace.testoutput.dir}"/>
+  </target>
+</project>

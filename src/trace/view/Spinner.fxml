@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXSpinner?>
+<?import javafx.scene.layout.*?>
+<AnchorPane fx:id="spinnerPane" style="-fx-background-color: #1E1E1E;" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="trace.controller.SpinnerController">
+    <children>
+        <VBox alignment="CENTER" layoutY="11.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
+              AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <HBox alignment="CENTER">
+                    <children>
+                        <JFXSpinner fx:id="spinner" prefHeight="200.0" prefWidth="200.0"/>
+                    </children>
+                </HBox>
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>

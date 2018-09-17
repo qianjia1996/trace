@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.media.MediaView?>
+<?import javafx.scene.text.Font?>
+<VBox fx:id="rootPane" alignment="CENTER" style="-fx-background-color: #212121;" stylesheets="@../css/commons.css"
+      xmlns:fx="http://javafx.com/fxml/1" fx:controller="trace.controller.AdjustSubtitleController">
+    <children>
+        <HBox alignment="CENTER">
+            <children>
+                <Pane fx:id="pane" minHeight="575.0" minWidth="900.0" prefHeight="575.0">
+                    <children>
+                        <MediaView fx:id="mediaView"/>
+                        <Label fx:id="subtitle" alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0"
+                               textAlignment="CENTER" textFill="WHITE">
+                            <font>
+                                <Font size="30.0"/>
+                            </font>
+                        </Label>
+                        <JFXSlider fx:id="slider" layoutY="547.0" prefHeight="14.0"/>
+                    </children>
+                </Pane>
+            </children>
+            <VBox.margin>
+                <Insets/>
+            </VBox.margin>
+        </HBox>
+        <VBox alignment="CENTER">
+            <children>
+                <HBox alignment="CENTER" minHeight="32.0" prefWidth="200.0" style="-fx-background-color: #212121;">
+                    <children>
+                        <Label alignment="CENTER" maxHeight="22.0" minHeight="22.0" prefHeight="22.0" text="调整字幕时间轴"
+                               textFill="WHITE">
+                            <font>
+                                <Font size="16.0"/>
+                            </font>
+                            <HBox.margin>
+                                <Insets top="10.0"/>
+                            </HBox.margin>
+                        </Label>
+                    </children>
+                    <VBox.margin>
+                        <Insets/>
+                    </VBox.margin>
+                </HBox>
+                <HBox fx:id="affirmHBox" alignment="CENTER" prefHeight="110.0" prefWidth="917.0" spacing="30.0"
+                      style="-fx-background-color: #212121;">
+                    <children>
+                        <VBox alignment="CENTER" maxHeight="100.0" prefHeight="100.0" prefWidth="346.0"
+                              style="-fx-border-color: #646464;">
+                            <children>
+                                <Label fx:id="error" alignment="CENTER" maxWidth="269.0" text="必须是数字" textFill="RED"
+                                       visible="false">
+                                    <VBox.margin>
+                                        <Insets bottom="5.0" top="10.0"/>
+                                    </VBox.margin>
+                                </Label>
+                                <HBox alignment="CENTER" maxHeight="-Infinity" prefHeight="30.0" prefWidth="267.0">
+                                    <children>
+                                        <Label alignment="CENTER" contentDisplay="RIGHT" graphicTextGap="5.0"
+                                               prefHeight="30.0" text="字幕同步(毫秒)" textFill="WHITE">
+                                            <graphic>
+                                                <TextField fx:id="field" prefHeight="30.0" prefWidth="85.0"
+                                                           style="-fx-background-radius: 0px; -fx-background-color: #313131; -fx-border-color: #646464; -fx-prompt-text-fill: #FFFFFF; -fx-text-fill: #FFFFFF;"/>
+                                            </graphic>
+                                            <HBox.margin>
+                                                <Insets left="10.0"/>
+                                            </HBox.margin>
+                                        </Label>
+                                        <JFXButton fx:id="sync" prefHeight="30.0" prefWidth="60.0"
+                                                   styleClass="sync-button" text="应用" textFill="WHITE">
+                                            <HBox.margin>
+                                                <Insets left="14.0" right="10.0"/>
+                                            </HBox.margin>
+                                        </JFXButton>
+                                        <JFXButton fx:id="reset" layoutX="206.0" layoutY="10.0" prefHeight="30.0"
+                                                   prefWidth="60.0" styleClass="sync-button" text="复位" textFill="WHITE">
+                                            <HBox.margin>
+                                                <Insets left="10.0" right="10.0"/>
+                                            </HBox.margin>
+                                        </JFXButton>
+                                    </children>
+                                    <VBox.margin>
+                                        <Insets bottom="30.0"/>
+                                    </VBox.margin>
+                                </HBox>
+                            </children>
+                            <HBox.margin>
+                                <Insets bottom="8.0" top="10.0"/>
+                            </HBox.margin>
+                        </VBox>
+                        <HBox alignment="CENTER_LEFT" maxHeight="92.0" prefHeight="100.0" spacing="15.0"
+                              style="-fx-border-color: #646464;">
+                            <children>
+                                <JFXButton fx:id="rewind" prefHeight="30.0" prefWidth="60.0" styleClass="sync-button"
+                                           text="滞后" textFill="WHITE">
+                                    <HBox.margin>
+                                        <Insets left="10.0"/>
+                                    </HBox.margin>
+                                </JFXButton>
+                                <JFXButton fx:id="play" prefHeight="30.0" prefWidth="60.0" styleClass="sync-button"
+                                           text="暂停" textFill="WHITE">
+                                    <HBox.margin>
+                                        <Insets left="20.0"/>
+                                    </HBox.margin>
+                                </JFXButton>
+                                <JFXButton fx:id="fastForward" prefHeight="30.0" prefWidth="60.0"
+                                           styleClass="sync-button" text="超前" textFill="WHITE">
+                                    <HBox.margin>
+                                        <Insets left="15.0" right="10.0"/>
+                                    </HBox.margin>
+                                </JFXButton>
+                            </children>
+                        </HBox>
+                        <HBox alignment="CENTER" maxHeight="92.0" prefHeight="92.0" style="-fx-border-color: #646464;">
+                            <children>
+                                <JFXButton fx:id="affirm" prefHeight="30.0" prefWidth="60.0" styleClass="sync-button"
+                                           text="确定" textFill="WHITE">
+                                    <HBox.margin>
+                                        <Insets left="10.0"/>
+                                    </HBox.margin>
+                                </JFXButton>
+                                <JFXButton fx:id="cancel" prefHeight="30.0" prefWidth="60.0" styleClass="sync-button"
+                                           text="取消" textFill="WHITE">
+                                    <HBox.margin>
+                                        <Insets left="10.0" right="10.0"/>
+                                    </HBox.margin>
+                                </JFXButton>
+                            </children>
+                        </HBox>
+                    </children>
+                </HBox>
+            </children>
+            <VBox.margin>
+                <Insets top="-30.0"/>
+            </VBox.margin>
+        </VBox>
+    </children>
+</VBox>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="icu4j-62.1">
+    <CLASSES>
+      <root url="jar://F:/JavaFX/JavaFX_liberies/icu4j-62.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://F:/JavaFX/JavaFX_liberies/icu4j-62.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

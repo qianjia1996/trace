@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<AnchorPane style="-fx-background-color: #1F1F1F;" stylesheets="@../css/commons.css"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="trace.controller.SidePaneController">
+   <children>
+      <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+             <JFXButton contentDisplay="RIGHT" graphicTextGap="10.0" onAction="#BASICView" prefHeight="50.0"
+                        prefWidth="120.0" ripplerFill="#bec3c7" styleClass="side-button" text="熟悉单词" textFill="WHITE">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <graphic>
+                   <Label fx:id="familiarLabel" alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0"
+                          prefWidth="46.0" textFill="#f58122">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+               </graphic>
+               <VBox.margin>
+                  <Insets top="50.0" />
+               </VBox.margin>
+            </JFXButton>
+             <JFXButton contentDisplay="RIGHT" graphicTextGap="10.0" onAction="#NOTBASICView" prefHeight="50.0"
+                        prefWidth="120.0" ripplerFill="#bec3c7" styleClass="side-button" text="学习单词" textFill="WHITE">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <graphic>
+                   <Label fx:id="reviewsLabel" alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0"
+                          prefWidth="46.0" textFill="#f58122">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+               </graphic>
+            </JFXButton>
+             <JFXButton contentDisplay="RIGHT" graphicTextGap="10.0" layoutX="10.0" layoutY="110.0"
+                        onAction="#VideoListView" prefHeight="50.0" prefWidth="120.0" ripplerFill="#bec3c7"
+                        style="-fx-background-radius: 0;" text="管理视频" textFill="WHITE">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <graphic>
+                   <Label prefWidth="46.0" text=" "/>
+               </graphic>
+            </JFXButton>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

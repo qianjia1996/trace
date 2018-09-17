@@ -1,0 +1,5 @@
+out/
+*.jar
+resources/
+*.json
+*.png

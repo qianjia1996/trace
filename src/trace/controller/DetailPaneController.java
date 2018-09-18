@@ -1094,6 +1094,7 @@ public class DetailPaneController {
             computeProgress(word);
             progressLabel.setVisible(true);
             day.setVisible(true);
+            starFilled = false;
             star.setGraphic(starImage);
         } else {
             medias = mainController.familiar.get(word);

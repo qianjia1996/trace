@@ -1,11 +1,7 @@
 1. 下载SRT字幕,推荐使用[字幕组](http://www.zimuzu.io)和[射手网（伪）](http://assrt.net/)，[射手网（伪）](http://assrt.net/)可以直接下载英语字幕。
    ​
 
-   ![assrt](C:\Users\tangs\Desktop\demo\assrt.png)
-
-   ​
-
-   ​
+   ![assrt](https://github.com/Tangshimin/trace/blob/master/src/trace/images/assrt.png)
 
 2. 下载MP4格式的美剧推荐使用[人人影视客户端](http://app.zimuzu.io/)，MKV 格式视频支持，将会在后续的版本添加。
    ​
@@ -74,7 +70,17 @@
 
    ​
 
-6. 熟悉单词界面和学习单词界面，显示的单词是随机的，每次启动和添加单词的时候这两个界面都会更新，所以这两个视图的单词，每次更新之后都会不一样。
+9. 熟悉单词界面和学习单词界面，显示的单词是随机的，每次启动和添加单词的时候这两个界面都会更新，所以这两个视图的单词，每次更新之后都会不一样。
+
+   ![home](C:\Users\tangs\Desktop\demo\home.png)
+
+10. 详情页面
+
+   ​
 
 
+![detail](C:\Users\tangs\Desktop\demo\detail.png)
 
+使用有道词典的复制查词
+
+![detail-youdao](C:\Users\tangs\Desktop\demo\detail-youdao.png)

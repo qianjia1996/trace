@@ -13,7 +13,7 @@
 4. 然后把 MP4 格式的视频和 SRT 格式的字幕，放在同一个文件夹。
    ​
 
-   ![file](https://github.com/Tangshimin/trace/blob/master/src/trace/images/file.png)​​
+   ![file](https://github.com/Tangshimin/trace/blob/master/src/trace/images/file.png)
 
 5. 通过主界面的打开文件，同时选择 MP4 和 SRT 文件，然后打开。
    ​
@@ -69,4 +69,4 @@
 
 使用有道词典的复制查词
 
-![detail-youdao](C:\Users\tangs\Desktop\demo\detail-youdao.png)
+![detail-youdao](https://github.com/Tangshimin/trace/blob/master/src/trace/images/detail-youdao.png)
